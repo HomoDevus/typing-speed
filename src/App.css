@@ -40,6 +40,12 @@ body {
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.start-button:disabled {
+    cursor: unset;
+    background-color: #4c4542;
+    box-shadow: none;
+}
+
 .typing-area {
     height: 100px;
     resize: none;
@@ -47,6 +53,10 @@ body {
     background-color: #201D1C;
     color: #DDDDDD;
     padding: 8px 8px;
+}
+
+.typing-area:disabled {
+    background-color: #4c4542;
 }
 
 .timer {
